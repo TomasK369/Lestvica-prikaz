@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lestvica</title>
+</head>
+<body>
+    <div class="odzadje">
+        <div class="postavitev">
+            <div class="naslovi-skupin">
+                <div class="group-name">skupina 1</div>
+                <div class="group-name">skupina 2</div>
+                <div class="group-name">skupina 3</div>
+            </div>
+            <div class="group-container">
+            <div class="group" id="group1">
+                <div class="icon" id="icon1"></div>
+            </div>
+
+            <div class="group" id="group2">
+                <div class="icon" id="icon2"></div>
+
+            </div>
+            <div class="group" id="group3">
+                <div class="icon" id="icon3"></div>
+            </div>
+            </div>
+            <div class="gumbi">
+                <button class="button" onclick="moveUp('icon1')">Dodaj točke</button>
+                <button class="button" onclick="moveUp('icon2')">Dodaj točke</button>
+                <button class="button" onclick="moveUp('icon3')">Dodaj točke</button>
+            </div>
+            <div class="gumbi">
+                <button class="button" onclick="moveDown('icon1')">Odstrani točke</button>
+                <button class="button" onclick="moveDown('icon2')">Odstrani točke</button>
+                <button class="button" onclick="moveDown('icon3')">Odstrani točke</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

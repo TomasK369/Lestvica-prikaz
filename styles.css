@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  /* background-color: aliceblue; */
+  background-color: rgba(0, 0, 0, 0.555);
+  }
+
+body {
+  background-image: url("slike/bg3.webp");
+  background-size: cover;
+  background-blend-mode:saturation;
+  z-index: -1;
+  }
+
+  .postavitev {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 20px;
+  }
+
+  .naslovi-skupin {
+    /* border: solid rgb(247, 0, 255); */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    margin-bottom: 0;
+  }
+
+  .group-container {
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+
+  .gumbi {
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+
+
+  .group {
+    border: solid rgb(17, 80, 1);
+    border-top: solid rgb(26, 126, 2) 50px;
+    border-radius: 20px;
+    display: flex;
+    padding: 160px 100px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 15px 10px rgb(231, 221, 71);
+  }
+
+  .group-name {
+    border: solid yellow;
+    margin: 10px;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(255, 8, 0, 0.87);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgb(231, 162, 71); ;
+  }
+
+  .icon {
+    border: solid blue;
+    width: 80%;
+    height: 40px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    transition: bottom 0.2s ease;
+  }
+
+
+  .button {
+    border: solid green;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 6px 6px 10px black;
+  }
+
+  .button:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+    box-shadow: 3px 3px 10px;
+  }
+
